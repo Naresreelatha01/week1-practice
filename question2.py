@@ -12,7 +12,6 @@ if tickets >= 5:
     discount = total * 10 / 100
 else:
     discount = 0
-
 final_amount = total - discount
 print("Customer Name:", name)
 print("Ticket Price:", price)
